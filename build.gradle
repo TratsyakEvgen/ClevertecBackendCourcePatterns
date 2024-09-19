@@ -10,6 +10,12 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.slf4j:slf4j-simple:2.0.16'
+    implementation 'org.slf4j:slf4j-api:2.0.16'
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    implementation 'com.sun.mail:jakarta.mail:2.0.1'
+    implementation 'org.springframework:spring-context-support:6.1.12'
     implementation 'org.springframework:spring-core:6.1.12'
     implementation 'org.springframework:spring-context:6.1.12'
 
